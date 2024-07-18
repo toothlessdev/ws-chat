@@ -1,3 +1,9 @@
+import { Router } from "./Router";
+
 export default function App() {
-    return <>socket.io client</>;
+    return (
+        <>
+            <Router />
+        </>
+    );
 }
